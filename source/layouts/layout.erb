@@ -17,12 +17,16 @@
     </style>
   </head>
 
-  <body class="<%= page_classes %>">
+  <body class='<%= page_classes %>'>
+
+    <div class="content">
+
       <%= partial 'partials/header'%>
 
       <%= yield %>
 
       <%= partial 'partials/footer' %>
 
+    </div>
   </body>
 </html>
