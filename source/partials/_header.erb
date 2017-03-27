@@ -1,0 +1,11 @@
+<header class="header">
+  <%= link_to 'AMP', '/', class: 'logo' %>
+  <%= check_box_tag 'menu-btn', class: 'menu-btn', id:'menu-btn' %>
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><%= link_to 'Home', '/' %> </li>
+    <li><%= link_to 'About', '/about.html' %> </li>
+    <li><%= link_to 'Gallery', '/gallery.html' %> </li>
+    <li><%= link_to 'Contact', '/contact.html' %> </li>
+  </ul>
+</header>
